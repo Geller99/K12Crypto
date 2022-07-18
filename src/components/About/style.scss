@@ -1,0 +1,171 @@
+.about {
+  
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // position: absolute;
+  //   border-radius: 57px;
+  //   margin-top: 5vh;
+  //   margin-bottom: 5vh;
+  padding: 2px;
+  background-image: url("../../assets/svgs/BackgroundStars.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .container {
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    width: 80%;
+
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+
+    .inner-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      // margin: auto;
+
+      // margin-bottom: 20vh;
+
+      @media (max-width: 768px) {
+        // display: none;
+        flex-wrap: wrap-reverse;
+        width: 90%;
+        justify-content: center;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+      }
+
+      @media (max-width: 568px) {
+        margin: 0 auto;
+      }
+
+      .inner-container-text {
+        width: 50%;
+        padding: 5px;
+
+        @media (max-width: 768px) {
+          width: 100%;
+          margin-top: 25px;
+        }
+
+        .inner-container-desc {
+          font-size: 25px;
+          // font-weight: 700;
+          line-height: 1.5;
+          color: #fff;
+          margin-bottom: 20px;
+
+          @media (max-width: 768px) {
+            font-size: 20px;
+          }
+
+
+        }
+
+        .inner-container-long-desc {
+          font-size: 15px;
+          line-height: 1.5;
+
+          h5 {
+            color: #c7c0c0;
+            font-weight: 700;
+
+          }
+
+          margin-bottom: 20px;
+
+          p {
+            color: #999595;
+          }
+        }
+
+        .inner-container-ReadMore {
+          display: flex;
+          justify-content: flex-end;
+          font-weight: 600;
+          color: #fff;
+          cursor: pointer;
+        }
+
+
+
+
+      }
+
+      .aboutImg {
+
+        // mobile media query
+        @media (max-width: 568px) {
+          width: 300px;
+        }
+      }
+
+    }
+
+    .services-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 80px;
+
+      // mobile media query
+      @media (max-width: 568px) {
+        flex-direction: column;
+      }
+
+      .service-card {
+
+        // width: 30%;
+        // mobile media query
+        @media (max-width: 568px) {
+          width: 100%;
+          padding: 12px;
+
+        }
+
+        h4 {
+          color: #ffff;
+          padding: 10px;
+        }
+
+        p {
+          color: rgb(167, 161, 161);
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+.About-ReadMore-content {
+
+  .read-more-heading {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .description-container {
+    width: 100%;
+    max-width: 640px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, .69);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 0 auto;
+    position: relative;
+  }
+}

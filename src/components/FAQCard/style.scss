@@ -1,0 +1,57 @@
+.FaqCard {
+  .box-container {
+
+    padding: 58px 40px;
+
+     // tablet media query
+     @media (max-width: 1024px) {
+        padding: 38px 28px;
+      margin-top: 14px;
+        // grid-template-columns: 1fr;
+      }
+    
+
+    /* Grey */
+
+    border: 1px solid #636363;
+    border-radius: 12px;
+
+    .faq-heading {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 41px;
+      margin-top: 0;
+      @media screen and (max-width:900px) {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      /* identical to box height */
+
+      /* White */
+
+      color: #fcfcfc;
+    }
+
+    .faq-subheading {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      /* or 24px */
+
+      /* Grey */
+
+      color: #636363;
+    }
+
+    .related-question {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Grey */
+
+      color: #636363;
+    }
+  }
+}

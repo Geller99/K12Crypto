@@ -1,0 +1,108 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// commented for temp
+.landingPage, .SectionB, .sectionC, .sectionD, .team, .Faqs, .footer {
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+@font-face {
+  font-family: "EuclidCircularA";
+  src: local("EuclidCircularA"),
+    url(../assets/fonts/EuclidCircularA-Regular.woff) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+
+//   overRiding react slick css
+.slick-dots {
+  background-color: #5a33f3;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  bottom: -40px !important;
+  padding-bottom: 20px !important;
+}
+
+.slick-dots li {
+  color: #3c21a9 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #fcfcfc !important;
+}
+
+// slick arrow
+
+.slick-next {
+  right: 5px !important;
+}
+.slick-prev {
+  left: 5px !important;
+  z-index: 20 !important;
+}
+
+.right-arrow-custom {
+  background-color: yellow;
+}
+
+.slick-next,
+.slick-prev {
+  padding: 14px;
+  width: 35px !important;
+  height: 35px !important;
+  padding: 9px !important;
+  cursor: pointer;
+  border: none;
+  border-radius: 5vw;
+  background-color: #fff !important;
+  z-index: 99 !important;
+  box-shadow: rgb(35 35 35 / 50%) 0px 0px 20px 5px;
+  top: 40%;
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+body {
+  font-family: "EuclidCircularA";
+  background-color: #121212;
+  font-size: 16px;
+
+  h1 {
+    font-size: 48px !important;
+  }
+  h2 {
+    font-size: 40px !important;
+  }
+
+  @media screen and (max-width: 900px) {
+    h1 {
+      font-size: 40px !important;
+    }
+    h2 {
+      font-size: 40px !important;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    h1 {
+      font-size: 24px !important;
+    }
+    h2 {
+      font-size: 24px !important;
+    }
+  }
+}
+.App {
+  overflow-x: hidden;
+  position: relative;
+  @media screen and (min-width: 721px) {
+    padding-top: 88px;
+  }
+  
+}

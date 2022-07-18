@@ -1,0 +1,299 @@
+.SectionB {
+  overflow: hidden;
+  .container {
+    width: 100%;
+    // height: 100vh;
+    padding: 80px 2px;
+    background-color: #121212;
+
+
+    // tab media query
+    @media (max-width: 768px) {
+      padding: 60px 2px;
+    }
+
+    // mobile media query
+    @media (max-width: 576px) {
+      padding: 10px 2px;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #fff;
+      .title {
+        font-size: 40px;
+        font-weight: 700;
+        // margin-bottom: 21px;
+      }
+
+      .underline {
+        margin: 10px auto;
+        color: #228b22;
+        text-align: center;
+        font-size: 30px;
+        max-width: 600px;
+        position: relative;
+
+        // mobile media query
+        @media (max-width: 576px) {
+          max-width: 230px;
+
+        }
+
+        &:before {
+          content: "";
+          display: block;
+          width: 120px;
+          height: 2px;
+          background: #ffffff80;
+          left: 145px;
+          top: 50%;
+          position: absolute;
+          // z-index: -2;
+        }
+
+        &:after {
+          content: "";
+          display: block;
+          width: 120px;
+          height: 2px;
+          background: #ffffff80;
+          right: 145px;
+          top: 50%;
+          position: absolute;
+        }
+      }
+    }
+
+    .section-middle {
+      position: relative;
+
+      .bg-stars {
+        width: 100%;
+        height: 100%;
+        background-image: url("../../assets/svgs/BackgroundStars.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        // z-index: -1;
+
+        .world-img {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 150px;
+          position: relative;
+
+          .earth-img-mobile {
+            display: none;
+          }
+
+          // tablet media query
+          @media (max-width: 820px) {
+            .earth {
+              width: 80%;
+            }
+          }
+
+          // mobile media query
+          @media (max-width: 576px) {
+            .earth-img-desktop {
+              display: none;
+            }
+            .earth-img-mobile {
+              display: block;
+              width: calc(100vw - 46px);
+            }
+          }
+
+          .student-img {
+            position: absolute;
+            right: 30%;
+            top: 30%;
+            background-color: #2e2e2e;
+            padding: 15px 20px;
+
+            // tablet media query
+            @media (max-width: 1024px) {
+              right: 21%;
+            }
+            // mobile media query
+            @media (max-width: 576px) {
+              display: none;
+            }
+          }
+
+          .orbitChain-img {
+            position: absolute;
+
+            filter: drop-shadow(0px 0px 6px rgba(214, 206, 243, 0.5));
+
+            display: block;
+
+            // tablet media query
+            @media (max-width: 820px) {
+              width: 80%;
+            }
+          }
+          .orbitChain-img-mobile {
+            display: none;
+            position: absolute;
+          }
+          .orbitChain-img-desktop {
+          }
+
+          //  mobile media query
+          @media (max-width: 576px) {
+            .orbitChain-img-mobile {
+              display: block;
+            }
+            .orbitChain-img-desktop {
+              display: none;
+            }
+          }
+
+          .Ellipse-71 {
+            position: absolute;
+            width: 50%;
+            aspect-ratio: 1;
+            left: -51.9%;
+            top: -51.9%;
+            background: rgba(90, 51, 243, 0.1);
+            filter: blur(49px);
+            -webkit-filter: blur(49px);
+
+            // mobile media query
+            @media (max-width: 576px) {
+              left: 100.26px;
+              top: 164px;
+
+              background: rgba(81, 242, 67, 0.3);
+              filter: blur(161.224px);
+            }
+          }
+          .Ellipse-73 {
+            position: absolute;
+
+            width: 401px;
+       
+            left: 411px;
+            top: 150px;
+            background: rgba(81, 242, 67, 0.3);
+            filter: blur(340px);
+            -webkit-filter: blur(340px);
+
+            @media (max-width: 576px) {
+              background: none;
+            }
+          }
+          .Ellipse-72 {
+            position: absolute;
+            width: 401px;
+            
+            right: 100px;
+            //top: 1035px;
+            background: rgba(81, 242, 67, 0.3);
+            filter: blur(450px);
+            -webkit-filter: blur(450px);
+
+            // moile media query
+            @media (max-width: 576px) {
+              left: 282.46px;
+              top: 109.2px;
+              background: rgba(90, 51, 243, 0.1);
+              filter: blur(161.224px);
+            }
+          }
+        }
+      }
+    }
+
+    .section-footer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      .section-footer-title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        color: #fcfcfc;
+
+        @media (max-width: 820px) {
+          font-size: 32px;
+        }
+
+        // mobile media query
+        @media (max-width: 576px) {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+      .section-footer-underline {
+        font-family: sans-serif;
+        margin: 20px auto;
+        color: #636363;
+        text-align: center;
+        font-size: 16px;
+        max-width: 850px;
+        position: relative;
+
+        // tablet media query
+        @media (max-width: 820px) {
+          // height: 10vh;
+          font-size: 14px;
+          max-width: 680px;
+        }
+
+        // mobile media query
+        @media (max-width: 576px) {
+          font-size: 14px;
+          max-width: 409px;
+          padding-left: 80px;
+          padding-right: 80px;
+          // break word wrapping
+          word-wrap: break-word;
+        }
+
+        &:before {
+          content: "";
+          display: block;
+          width: 120px;
+          height: 2px;
+          background: #ffffff80;
+          left: 0px;
+          top: 50%;
+          position: absolute;
+          // z-index: -2;
+
+          @media (max-width: 820px) {
+            width: 80px;
+          }
+
+          // mobile media query
+          @media (max-width: 600px) {
+            width: 60px;
+          }
+        }
+
+        &:after {
+          content: "";
+          display: block;
+          width: 120px;
+          height: 2px;
+          background: #ffffff80;
+          right: 0px;
+          top: 50%;
+          position: absolute;
+
+          @media (max-width: 820px) {
+            width: 80px;
+          }
+          // mobile media query
+          @media (max-width: 600px) {
+            width: 60px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.avatar-small-card{
+    .avatar-card{
+        background-color: #232323;
+        width: 126.48px;
+        height: 129.58px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12.4153px;
+
+        @media (max-width: 820px) {
+            width: 75.95px;
+height: 77.82px;
+        }
+    }
+}
