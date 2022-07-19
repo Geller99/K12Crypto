@@ -11,12 +11,11 @@ const SectionC = () => {
                     <span className="Polygon"></span>
                     <div className="section-footer">
                 <div className="section-footer-title">
-                A token of appreciation <br/> for your time
+                Learn with K12Crypto <br/> Earn in $K12 
                     </div>
                     <div className="section-footer-underline">
-            Get premium education from top tutors around the world. You are{" "}
-            <br /> guaranteed to learn the basics of how web3 works and how to
-            benefit from it
+                    The $K12 token provides a learning incentive for students {" "}
+            <br /> and guarantees cumulative value towards their post-K12 education.
           </div>
                     </div>
                 </div>

@@ -6,8 +6,9 @@ const FAQCard = ({question,answer}) => {
     <div className="FaqCard">
       <div className="box-container">
       <p className="faq-heading">{question}</p>
+      <br/>
       <p className="faq-subheading">{answer} </p>
-      <p className="related-question">More related questions</p>
+      {/* <p className="related-question">More related questions</p> */}
         
       </div>
     </div>

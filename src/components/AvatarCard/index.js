@@ -1,5 +1,5 @@
 import React from 'react'
-import cybrog1 from "../../assets/svgs/cyborg 1.svg"
+
 
 const AvtarCard = ({imgUrl}) => {
   return (

@@ -9,11 +9,11 @@ function Card3() {
         <div className='footer-card card-3'>
             <div className='effect-container'>
                 <div className='ellipse-78'></div>
-                <img src={luve_on_mars_1} className="luve_on_mars_1" />
+                <img src={luve_on_mars_1} alt='' className="luve_on_mars_1" />
             </div>
             <div className='content'>
-                <div className='heading'>Join our community to <br />stay informed</div>
-                <div className='sub-heading'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus lorem facilisi tortor, eu laoreet quis. </div>
+                <div className='heading'>Join Our Community <br /> Get Involved</div>
+                <div className='sub-heading'>Here's where you can find us </div>
                 <div className='social-icons'>
                     <div className='icon'>
                         <img src={facebook_icon} alt="facebook" />

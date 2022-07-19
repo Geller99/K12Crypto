@@ -1,6 +1,6 @@
 import React from "react";
 import workstation from "../../assets/svgs/LandingPageImg.png";
-import workstationMobile from "../../assets/svgs/workspaceMobile.png";
+// import workstationMobile from "../../assets/svgs/workspaceMobile.png";
 import spotlight from "../../assets/svgs/polygon-5.svg";
 import mail from "../../assets/Icons/Vector.png";
 import firstImg from "../../assets/svgs/banner_1_image.png";
@@ -52,24 +52,23 @@ const LandingPage = () => {
               data-aos-offset="100"
               data-aos-easing="ease-in-sine">
               <h1>
-                Get <span className="title-white">paid to learn</span> web3
+              Power Your Future <span className="title-white">Earn as You Learn</span>
               </h1>
             </div>
             <div className="section-footer-underline" 
 
             >
-              Learning web 3 made fun and innovative for students , earn rewards
-              by <br /> completing courses , logging in daily and completing
-              modules
+              Your Students Earn Daily $K12 Rewards as they Build Real-World Skills
+              on <br /> The Premier Crypto Platform For Education and Financial Literacy
             </div>
           </div>
           <div className="section-footer">
             {/* subscribe to our newsletter to get the latest updates */}
             <div className="mail-input">
               <img src={mail} alt="mail" />
-              <input type="email" placeholder="Enter email for updates" />
+              <input type="email" placeholder="Enter your email to find out more..." />
             </div>
-            <button className="sign-up-now-btn">Sign up now</button>
+            <button className="sign-up-now-btn">Get started</button>
           </div>
         </div>
       </div>

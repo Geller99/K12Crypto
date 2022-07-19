@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import icon from "../../assets/svgs/Group 25.png";
 import FAQCard from "../FAQCard";
 
 const FAQs = () => {
@@ -15,27 +14,27 @@ const FAQs = () => {
 
   const faqs = [
     {
-      question: "Egestas leo nisl orci nulla cursus?",
+      question: "How does K12Crypto Work ?",
       answer:
-        "Modules and courses to help broaden your web 3 knowledge and put you up to speed on how it works ",
+        "Imagine an immersive experience where your children can grow real-world skills while earning enough to secure an education for the future. ",
       relatedQuestions: "More related questions",
     },
     {
-      question: "Egestas leo nisl orci nulla cursus?",
+      question: "Where are student earnings collected ?",
       answer:
-        "Modules and courses to help broaden your web 3 knowledge and put you up to speed on how it works ",
+        "Student earnings are collected in our K12 Deposit only wallet, which lets students accumulate earnings as they explore the platform.",
       relatedQuestions: "More related questions",
     },
     {
-      question: "Egestas leo nisl orci nulla cursus?",
+      question: "How do I get involved ?",
       answer:
-        "Modules and courses to help broaden your web 3 knowledge and put you up to speed on how it works ",
+        "K12Crypto has different paths for anyone looking to get involved; investors, district heads, institutions, content creators and even students all have a place in building the future crypto-powered education.",
       relatedQuestions: "More related questions",
     },
     {
-      question: "Egestas leo nisl orci nulla cursus?",
+      question: "What tokens do students earn in ?",
       answer:
-        "Modules and courses to help broaden your web 3 knowledge and put you up to speed on how it works ",
+        "Our learn to earn incentive system is powered on the $K12 native token, backed by our tokenomics model - our lite paper will be made public soon, but contact us at principalrahh@gmail.com. ",
       relatedQuestions: "More related questions",
     },
   ];

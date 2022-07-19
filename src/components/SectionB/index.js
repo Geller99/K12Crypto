@@ -4,7 +4,7 @@ import world from "../../assets/svgs/Earth.png";
 import worldMobile from "../../assets/svgs/earth-mobile.png";
 import student from "../../assets/svgs/Group 53.png";
 import orbitChain from "../../assets/svgs/Ellipse 75.png";
-import orbitChainMobile from "../../assets/svgs/orbit-mobile.png";
+// import orbitChainMobile from "../../assets/svgs/orbit-mobile.png";
 
 const SectionB = () => {
   return (
@@ -48,12 +48,11 @@ const SectionB = () => {
         </div>
         <div className="section-footer">
           <div className="section-footer-title " >
-            Tutors from <br /> around the world
+            A Global Initiative <br /> With Endless Potential
           </div>
           <div className="section-footer-underline">
-            Get premium education from top tutors around the world. You are{" "}
-            <br /> guaranteed to learn the basics of how web3 works and how to
-            benefit from it
+          Get access to curriculums and courses with top institutions worldwide {" "}
+            <br /> with a focus on art, game development, finance, marketing,  DeFi, <br/> machine learning, engineering, content creation and more!
           </div>
         </div>
       </div>

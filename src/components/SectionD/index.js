@@ -68,9 +68,8 @@ const SectionD = () => {
         <div className="section-footer">
           <div className="section-footer-title">Avatar creation</div>
           <div className="section-footer-underline">
-            Get premium education from top tutors around the world. You are{" "}
-            <br /> guaranteed to learn the basics of how web3 works and how to
-            benefit from it
+          The K12 app will feature key customizations like avatars and traits,{" "}
+            <br /> enabling a fully immersive experience around expression and creativity
           </div>
         </div>
       </div>

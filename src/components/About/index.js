@@ -11,16 +11,12 @@ const About = () => {
           <div className="inner-container">
             <div className="inner-container-text">
               <div className="inner-container-desc">
-                Our mission is to educate new friends in the NFT space and provide
-                them with the knowledge and platform to earn that is accessible,
-                affordable, and user friendly.
+              As pioneers in education and emerging technologies, our team is focused on evolving the education model for K12 students with a focus on finance, multi-disciplinary skills and an incentivized earning system via cryptocurrency.
               </div>
               <div className="inner-container-long-desc">
-                <h5>OUR LORE</h5>
+                <h5>The Plan</h5>
                 <p>
-                  As Tiny Astros, we are all space explorers on a mission to
-                  rebuild our civilization while we explore the Web3 world
-                  together...
+                  At K12 Crypto, we identify pain points in the current education system and create solutions for the future, powered by decentralized finance
                 </p>
               </div>
               <div className="inner-container-ReadMore">
@@ -38,15 +34,15 @@ const About = () => {
           <div className="services-container">
             <div className="service-card">
               <h4>ACCESSIBLE</h4>
-              <p>Providing more access to our community and suite of tools to new friends entering the Web3 space through the Tiny Astro ecosystem.</p>
+              <p>We emphasize accessibility, unlike most platforms, meaning children facing disabilities have an equal playing field with their peers - this is home, as it always should be.</p>
             </div>
             <div className="service-card">
-              <h4>AFFORDABLE</h4>
-              <p>Providing more access to our community and suite of tools to new friends entering the Web3 space through the Tiny Astro ecosystem.</p>
+              <h4>GROWTH-DRIVEN</h4>
+              <p>Our growth model and platform structure means children can create amateur-level content for their peers under the guidance of organizations and districts - this reinforces their skillsets and learnings while readying them for the ever-growing creator economy - a Billion dollar industry.</p>
             </div>
             <div className="service-card">
-              <h4>USER FRIENDLY</h4>
-              <p>Providing more access to our community and suite of tools to new friends entering the Web3 space through the Tiny Astro ecosystem.</p>
+              <h4>GLOBAL</h4>
+              <p>Our long-term goal is to ensure access to education bodies and institutions for enrolling students worldwide - this is built on our tokenomics model, a bulletproof strategy for diversity and inclusion on a global scale.</p>
             </div>
 
           </div>
@@ -82,49 +78,12 @@ function AboutReadMore() {
   return (
     <div className="About-ReadMore-content">
       <div className="read-more-heading">
-        <h4>OUR LORE</h4>
+        <h4>OUR PLAN</h4>
 
       </div>
       <div className="description-container">
         <p>
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          civilization while we explore the Web3 world together...
-        </p>
-        <p>
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          civilization while we explore the Web3 world together...
-        </p>
-        <p>
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          civilization while we explore the Web3 world together...
-        </p>
-        <p>
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          civilization while we explore the Web3 world together...
-        </p>
-        <p>
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          As Tiny Astros, we are all space explorers on a mission to rebuild our
-          civilization while we explore the Web3 world together...
+           A future built on education and autonomous systems - read our notion document for more information
         </p>
       </div>
     </div>

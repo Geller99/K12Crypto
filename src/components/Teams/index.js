@@ -1,5 +1,7 @@
 import React from "react";
 import cube from "../../assets/Icons/Rectangle 3.png";
+import Rahh from "../../assets/images/image_6487327.JPG";
+import BJ from "../../assets/images/image_6487327 (1).JPG";
 
 const Teams = () => {
   return (
@@ -7,11 +9,9 @@ const Teams = () => {
       <div className="team__container">
         <div className="part-1">
           <div className="Team-title">
-            TEAM
+            Team K12Crypto
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              temporibus ducimus exercitationem minima blanditiis excepturi amet
-              veritatis dicta, suscipit incidunt!
+              Meet the collection of talented individuals with multi-disciplinary skills accross decentralized finance, education, engineering, accessibility and legal matters working together to scale the next premier education platform
             </p>
           </div>
         </div>
@@ -19,22 +19,23 @@ const Teams = () => {
           <div className="team-member">
             <div className="image-wrapper">
               <img
-                src="https://i.picsum.photos/id/768/200/200.jpg?hmac=CZCVsqJECKhkvl5gzeCA0O5iSMmRn_RVFzVrREOE7ws"
-                alt="team-image"
+                src={Rahh}
+                alt="team-img"
+                style={{height: "200px", width: "200px"}}
               />
             </div>
             <div className="text-content-wrapper">
               <div className="header">
-                <h3>John Doe</h3>
-                <p>Head of Community</p>
-                <p>@johndoe</p>
+                <h3>Principal Rahh</h3>
+                <p>Founder & CEO</p>
+                <p>@PrincipalRahh</p>
               </div>
               <span className="dashline"></span>
               <div className="detail">
                 <ul>
-                  <li>Startup entrepreneur</li>
-                  <li>Scaled a community from 0 to 5 million users.</li>
-                  <li>Startup entrepreneur</li>
+                  <li>Former Head Principal</li>
+                  <li>Built a school with multi-year 100% graduation rates</li>
+                  <li>Startup Founder</li>
                 </ul>
               </div>
             </div>
@@ -42,22 +43,23 @@ const Teams = () => {
           <div className="team-member">
             <div className="image-wrapper">
               <img
-                src="https://i.picsum.photos/id/768/200/200.jpg?hmac=CZCVsqJECKhkvl5gzeCA0O5iSMmRn_RVFzVrREOE7ws"
-                alt="team-image"
+                src={BJ}
+                alt="team-img"
+                style={{height: "200px", width: "200px"}}
               />
             </div>
             <div className="text-content-wrapper">
               <div className="header">
-                <h3>John Doe</h3>
-                <p>CEO</p>
-                <p>@johndoe</p>
+                <h3>B.J. Abron</h3>
+                <p>Co-Founder</p>
+                <p>@CryptoLawyerCA</p>
               </div>
               <span className="dashline"></span>
               <div className="detail">
                 <ul>
-                  <li>Startup entrepreneur</li>
-                  <li>Scaled a community from 0 to 5 million users.</li>
-                  <li>Startup entrepreneur</li>
+                  <li>Lawyer</li>
+                  <li>Crypto Attorney</li>
+                  <li>Startup Founder</li>
                 </ul>
               </div>
             </div>
@@ -67,20 +69,13 @@ const Teams = () => {
           <div className="tags-Container">
             <div className="tag-wrapper">
               <img src={cube} alt="cube" />
-              <h3>1 HEAD OF ENGINEERING</h3>
+              <h3>ONE HEAD OF ENGINEERING</h3>
             </div>
             <div className="tag-wrapper">
               <img src={cube} alt="cube" />
-              <h3>1 HEAD OF ENGINEERING</h3>
+              <h3>ONE HEAD OF TOKENOMICS</h3>
             </div>
-            <div className="tag-wrapper">
-              <img src={cube} alt="cube" />
-              <h3>1 HEAD OF ENGINEERING</h3>
-            </div>
-            <div className="tag-wrapper">
-              <img src={cube} alt="cube" />
-              <h3>1 HEAD OF ENGINEERING</h3>
-            </div>
+            
           </div>
         </div>
       </div>
