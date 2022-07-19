@@ -1,5 +1,5 @@
 import React from 'react'
-import spotlight from '../../assets/svgs/polygon-5.svg'
+// import spotlight from '../../assets/svgs/polygon-5.svg'
 function Banner({
     src,
     title
