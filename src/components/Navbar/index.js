@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "../../assets/svgs/k12logo.svg";
+// import Logo from "../../assets/svgs/k12logo.svg";
 import Logo2 from "../../assets/Icons/logo-mobile.svg";
 import arrow from "../../assets/svgs/arrow.svg";
 import world from "../../assets/svgs/world.svg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -20,7 +20,7 @@ function Navbar() {
             <div className="navbar-list-item">Quick Learn</div>
             <div className="navbar-list-item">Courses</div>
             <div className="navbar-list-item">About</div>
-            <div className="navbar-list-item bold-item"> <span className="world-img"><img src={world} /></span>ENG <span className="arrow-img" ><img src={arrow} /></span></div>
+            <div className="navbar-list-item bold-item"> <span className="world-img"><img src={world} alt='' /></span>ENG <span className="arrow-img" ><img src={arrow} alt='' /></span></div>
           </div>
         </div>
 
