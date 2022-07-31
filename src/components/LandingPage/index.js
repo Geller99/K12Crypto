@@ -52,7 +52,7 @@ const LandingPage = () => {
               data-aos-offset="100"
               data-aos-easing="ease-in-sine">
               <h1>
-              Power Your Future <span className="title-white">Earn as You Learn</span>
+              Empower Your Students <span className="title-white">Earn as You Learn</span>
               </h1>
             </div>
             <div className="section-footer-underline" 
