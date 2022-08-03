@@ -1,5 +1,5 @@
 import React from "react";
-import cube from "../../assets/Icons/Rectangle 3.png";
+// import cube from "../../assets/Icons/Rectangle 3.png";
 import Rahh from "../../assets/images/image_6487327.JPG";
 import BJ from "../../assets/images/image_6487327 (1).JPG";
 
@@ -33,7 +33,7 @@ const Teams = () => {
               <span className="dashline"></span>
               <div className="detail">
                 <ul>
-                  <li>Former Head Principal</li>
+                  <li>Award Winning Principal</li>
                   <li>Built a school with multi-year 100% graduation rates</li>
                   <li>Startup Founder</li>
                 </ul>
@@ -58,7 +58,6 @@ const Teams = () => {
               <div className="detail">
                 <ul>
                   <li>Lawyer</li>
-                  <li>Crypto Attorney</li>
                   <li>Startup Founder</li>
                 </ul>
               </div>
@@ -67,7 +66,7 @@ const Teams = () => {
         </div>
         <div className="part-3">
           <div className="tags-Container">
-            <div className="tag-wrapper">
+            {/* <div className="tag-wrapper">
               <img src={cube} alt="cube" />
               <h3>ONE HEAD OF ENGINEERING</h3>
             </div>
@@ -75,7 +74,7 @@ const Teams = () => {
               <img src={cube} alt="cube" />
               <h3>ONE HEAD OF TOKENOMICS</h3>
             </div>
-            
+             */}
           </div>
         </div>
       </div>
