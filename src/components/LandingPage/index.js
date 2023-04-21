@@ -6,7 +6,7 @@ import mail from "../../assets/Icons/Vector.png";
 import firstImg from "../../assets/svgs/banner_1_image.png";
 import secondImg from "../../assets/svgs/banner_2_image.png";
 import thirdImg from "../../assets/svgs/banner_3_image.png";
-import arrowRight from "../../assets/Icons/arrow-right.png";
+// import arrowRight from "../../assets/Icons/arrow-right.png";
 import Slider from "react-slick";
 
 import LeftArrow from "../../assets/Icons/left-arrow.svg";

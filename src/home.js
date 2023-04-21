@@ -3,7 +3,7 @@ import LandingPage from './components/LandingPage/index.js';
 import Navbar from './components/Navbar';
 // import NavBar from './components/NavBar-2';
 import SectionB from './components/SectionB/index.js';
-import FAQs from './components/FAQs/index.js';
+// import FAQs from './components/FAQs/index.js';
 import SectionC from './components/SectionC/index.js';
 import './css/Main.scss';
 import SectionD from './components/SectionD/index.js';
