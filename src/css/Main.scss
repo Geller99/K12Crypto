@@ -1,8 +1,8 @@
-@import './Global.scss';
+@import "./Global.scss";
 
 // components
-@import '../components/Navbar/style.scss';
-@import '../components/Footer/style.scss';
+@import "../components/Navbar/style.scss";
+@import "../components/Footer/style.scss";
 @import "../components/SectionB/style.scss";
 @import "../components/FAQs/style.scss";
 @import "../components/FAQCard/style.scss";
@@ -15,5 +15,7 @@
 @import "../components/ModalContainer/style.scss";
 @import "../components/Teams/style.scss";
 
-
-
+a {
+  text-decoration: none;
+  color: inherit;
+}

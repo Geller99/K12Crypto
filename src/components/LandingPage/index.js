@@ -68,7 +68,7 @@ const LandingPage = () => {
               <img src={mail} alt="mail" />
               <input type="email" placeholder="Enter your email to find out more..." />
             </div>
-            <button className="sign-up-now-btn">Get started</button>
+            <button className="sign-up-now-btn"> <a href="https://it2y5hd8am2.typeform.com/to/vQSqREom" target="_blank" rel="noreferrer"> Join Waitlist </a> </button>
           </div>
         </div>
       </div>
