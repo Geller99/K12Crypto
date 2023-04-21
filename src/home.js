@@ -44,7 +44,7 @@ const Home = () => {
       {/* teams */}
       <Teams/>
       {/* faq section */}
-      <FAQs />
+      {/* <FAQs /> */}
       <Footer/>
     </div>
   );
