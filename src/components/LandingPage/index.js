@@ -48,27 +48,43 @@ const LandingPage = () => {
             {/* <img src={workstationMobile} alt="workstation" className="mobile-img" /> */}
           </div>
           <div className="section-body">
-            <div className="title" data-aos="fade-right"
+            <div
+              className="title"
+              data-aos="fade-right"
               data-aos-offset="100"
-              data-aos-easing="ease-in-sine">
+              data-aos-easing="ease-in-sine"
+            >
               <h1>
-              Empower Your Students <span className="title-white">Earn as You Learn</span>
+                Empower Your Students{" "}
+                <span className="title-white">Earn as You Learn</span>
               </h1>
             </div>
-            <div className="section-footer-underline" 
-
-            >
-              Your Students Earn Daily $K12 Rewards as they Build Real-World Skills
-              on <br /> The Premier Crypto Platform For Education and Financial Literacy
+            <div className="section-footer-underline">
+              Your Students Earn Daily $K12 Rewards as they Build Real-World
+              Skills on <br /> The Premier Crypto Platform For Education and
+              Financial Literacy
             </div>
           </div>
           <div className="section-footer">
             {/* subscribe to our newsletter to get the latest updates */}
             <div className="mail-input">
               <img src={mail} alt="mail" />
-              <input type="email" placeholder="Enter your email to find out more..." />
+              <input
+                type="email"
+                placeholder="Enter your email to find out more..."
+              />
             </div>
-            <button className="sign-up-now-btn"> <a href="https://it2y5hd8am2.typeform.com/to/vQSqREom" target="_blank" rel="noreferrer"> Join Waitlist </a> </button>
+            <button className="sign-up-now-btn">
+              {" "}
+              <a
+                href="https://it2y5hd8am2.typeform.com/to/vQSqREom"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Join Waitlist{" "}
+              </a>{" "}
+            </button>
           </div>
         </div>
       </div>
@@ -77,20 +93,17 @@ const LandingPage = () => {
 
       <div className="mobile-container">
         <div className="slider-wrapper">
-          <div className='effects-section'>
-            <div className='ellipse-81'></div>
-            <div className='ellipse-83'></div>
-            <div className='ellipse-82'></div>
-            <div className='polygon-5'>
+          <div className="effects-section">
+            <div className="ellipse-81"></div>
+            <div className="ellipse-83"></div>
+            <div className="ellipse-82"></div>
+            <div className="polygon-5">
               <img src={spotlight} alt="" />
             </div>
           </div>
           <Slider {...settings}>
             <div>
-              <Banner
-                src={firstImg}
-                title={`Learn to <br/>Earn`}
-              />
+              <Banner src={firstImg} title={`Learn to <br/>Earn`} />
             </div>
             <div>
               <Banner
@@ -99,26 +112,25 @@ const LandingPage = () => {
               />
             </div>
             <div>
-              <Banner
-                src={thirdImg}
-                title="Learn from <br/>anywhere"
-              />
+              <Banner src={thirdImg} title="Learn from <br/>anywhere" />
             </div>
           </Slider>
         </div>
         <div className="form-field">
           <div className="mail-input">
             <img src={mail} alt="mail" />
-            <input type="email" className="email-placeholder" placeholder="Join The Waitlist!" />
+            <input
+              type="email"
+              className="email-placeholder"
+              placeholder="Join The Waitlist!"
+            />
           </div>
-         
+
           <button className="signUp-btn">
-          <a href="https://it2y5hd8am2.typeform.com/to/vQSqREom" target="_blank" rel="noreferrer"> 
-          <img src={arrowRight} alt="arrow-right" />
+          <a href="https://it2y5hd8am2.typeform.com/to/vQSqREom" target="_blank" rel="noreferrer">
+            Get Access
           </a>
-            
           </button>
-          
         </div>
       </div>
     </div>

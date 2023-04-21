@@ -4,7 +4,7 @@ import React from 'react'
 
 export const AboutK12 = () => {
   return (
-    <div style={{color:"white", display: "flex", flexDirection: "column", justifyContent: 'center', alignItems: "center", height:"100vh"}}>
+    <div style={{color:"white", display: "flex", flexDirection: "column", justifyContent: 'center', alignItems: "center", height:"100vh", width: "100vw"}}>
         
         <h1>Find Out More About K12Crypto and Our Mission...</h1>
 
