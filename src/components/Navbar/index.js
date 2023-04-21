@@ -52,11 +52,18 @@ function Navbar() {
               <span></span>
               <span></span>
               <ul id="menu">
-                <div className="mobile-nav-list-item">Home</div>
-                <div className="mobile-nav-list-item">Quick Learn</div>
-
-                <div className="mobile-nav-list-item">Courses</div>
-                <div className="mobile-nav-list-item">About</div>
+                <Link to="/">
+                  <div className="mobile-nav-list-item">Home</div>
+                </Link>
+                <Link to="learn">
+                  <div className="mobile-nav-list-item">Quick Learn</div>
+                </Link>
+                <Link to="courses">
+                  <div className="mobile-nav-list-item">Courses</div>
+                </Link>
+                <Link to="aboutk12">
+                  <div className="mobile-nav-list-item">About</div>
+                </Link>
                 <div className="mobile-nav-list-item">ENG</div>
               </ul>
             </div>

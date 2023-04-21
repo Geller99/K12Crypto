@@ -109,11 +109,16 @@ const LandingPage = () => {
         <div className="form-field">
           <div className="mail-input">
             <img src={mail} alt="mail" />
-            <input type="email" className="email-placeholder" placeholder="Enter email for updates" />
+            <input type="email" className="email-placeholder" placeholder="Join The Waitlist!" />
           </div>
+         
           <button className="signUp-btn">
-            <img src={arrowRight} alt="arrow-right" />
+          <a href="https://it2y5hd8am2.typeform.com/to/vQSqREom" target="_blank" rel="noreferrer"> 
+          <img src={arrowRight} alt="arrow-right" />
+          </a>
+            
           </button>
+          
         </div>
       </div>
     </div>
