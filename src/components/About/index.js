@@ -77,6 +77,8 @@ const About = () => {
         >
           <AboutReadMore />
         </ModalContainer>
+
+        
       </div>
     </>
   );

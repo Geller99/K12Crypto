@@ -6,7 +6,7 @@ import mail from "../../assets/Icons/Vector.png";
 import firstImg from "../../assets/svgs/banner_1_image.png";
 import secondImg from "../../assets/svgs/banner_2_image.png";
 import thirdImg from "../../assets/svgs/banner_3_image.png";
-// import arrowRight from "../../assets/Icons/arrow-right.png";
+import arrowRight from "../../assets/Icons/arrow-right.png";
 import Slider from "react-slick";
 
 import LeftArrow from "../../assets/Icons/left-arrow.svg";
@@ -125,11 +125,16 @@ const LandingPage = () => {
               placeholder="Join The Waitlist!"
             />
           </div>
-
-          <button className="signUp-btn">
-          <a href="https://it2y5hd8am2.typeform.com/to/vQSqREom" target="_blank" rel="noreferrer">
-            Get Access
-          </a>
+          <button className="signUp-btn" style={{ zIndex: "1" }}>
+            <a
+              href="https://it2y5hd8am2.typeform.com/to/vQSqREom"
+              target="_blank"
+              rel="noreferrer"
+              style={{ cursor: "pointer" }}
+            >
+              {" "}
+              <img src={arrowRight} alt="arrow-right" />
+            </a>{" "}
           </button>
         </div>
       </div>
